@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bruhzansh • Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">bruhzansh</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+        <source src="./From Main Klickpin CF- Hacker ciber - 5XlzeX4ht.mp4" type="video/mp4" />
+      </video>
+
+      <div class="container hero-grid">
+        <div class="hero-image">
+          <img src="./ChatGPT Image Mar 6, 2026, 12_00_45 PM.png" alt="Developer workspace" />
+        </div>
+        <div class="hero-content">
+          <h1>
+            Hi, I’m <span class="accent">bruhzansh</span>.
+          </h1>
+          <p class="hero-tagline">
+            I craft fast, secure web apps and build tooling that helps teams ship reliably. I focus on clean code, reliable deployments, and next‑level UX.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See work</a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-panel">
+          <div class="section-grid">
+            <div class="section-content">
+              <h2>About Me</h2>
+              <p>I'm a full-stack developer passionate about creating fast, secure, and accessible web experiences. I thrive on transforming complex problems into elegant solutions and love exploring new tools and technologies every week.</p>
+              <ul class="about-list">
+                <li><strong>Location:</strong> Earth</li>
+                <li><strong>Goal:</strong> Explore</li>
+              </ul>
+            </div>
+
+            <div class="section-media">
+              <div class="about-gallery" aria-hidden="true">
+                <div class="about-slide" style="background-image: url('https://images.unsplash.com/photo-1555529771-6a0c8c3db109?auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="about-slide" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="about-slide" style="background-image: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="about-slide" style="background-image: url('https://images.unsplash.com/photo-1526378722402-64380bb1f6f8?auto=format&fit=crop&w=1000&q=80');"></div>
+                <div class="about-slide" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Featured Projects</h2>
+          <p>Tools, apps, and experiments I’ve shipped recently.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <img class="card-image" src="./Gemini_Generated_Image_ucjxhbucjxhbucjx.png" alt="PinSave preview" />
+            <div class="card-body">
+              <h3>PinSave</h3>
+              <p>A sleek bookmarking platform that lets you save, organize, and share your favorite links with a click.</p>
+              <div class="card-actions">
+                <a class="btn btn-link" href="https://pinsave.netlify.app" target="_blank" rel="noreferrer">Live demo</a>
+                <a class="btn btn-link" href="https://github.com/HamiraniAnsh/pinsave" target="_blank" rel="noreferrer">View repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH2sUfOma4JoihVaHEEf2zNWiUvUlcrxTV2Q&s" alt="Vault app interface" />
+            <div class="card-body">
+              <h3>BruhzVault</h3>
+              <p>A secure vault web app designed to store notes, credentials, and secrets with encryption built in.</p>
+              <div class="card-actions">
+                <a class="btn btn-link" href="https://bruhzvault.netlify.app" target="_blank" rel="noreferrer">Live demo</a>
+                <a class="btn btn-link" href="https://github.com/HamiraniAnsh/bruhzvault" target="_blank" rel="noreferrer">View repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="card-image" src="https://images.unsplash.com/photo-1542831371-d531d36971e6?auto=format&fit=crop&w=900&q=80" alt="Secure login screen" />
+            <div class="card-body">
+              <h3>Bruhzansh</h3>
+              <p>My personal site showcasing projects, blogs, and contact details — built with performance and clarity in mind.</p>
+              <div class="card-actions">
+                <a class="btn btn-link" href="https://bruhzansh.netlify.app" target="_blank" rel="noreferrer">Live demo</a>
+                <a class="btn btn-link" href="https://github.com/HamiraniAnsh/bruhzansh" target="_blank" rel="noreferrer">View repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="card-image" src="https://i.ytimg.com/vi/mf8P5GGaSxE/maxresdefault.jpg" alt="Gmail Checker preview" />
+            <div class="card-body">
+              <h3>Gmail Checker</h3>
+              <p>A lightweight browser tool that previews Gmail inbox status without opening Gmail — useful for fast monitoring.</p>
+              <div class="card-actions">
+                <a class="btn btn-link" href="https://gmailchecker.netlify.app/" target="_blank" rel="noreferrer">Live demo</a>
+                <a class="btn btn-link" href="https://github.com/HamiraniAnsh/gmailchecker" target="_blank" rel="noreferrer">View repo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Skills</h2>
+          <p>Technologies I use regularly and tools I recommend.</p>
+        </header>
+
+        <div class="skill-grid">
+          <div class="skill">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript / TypeScript</li>
+              <li>React / Svelte</li>
+              <li>Accessibility</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js / Deno</li>
+              <li>Express / Fastify</li>
+              <li>PostgreSQL / MongoDB</li>
+              <li>REST &amp; GraphQL</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>DevOps</h3>
+            <ul>
+              <li>CI/CD (GitHub Actions)</li>
+              <li>Docker / Kubernetes</li>
+              <li>Monitoring / Logging</li>
+              <li>Infrastructure as Code</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Security</h3>
+            <ul>
+              <li>Vulnerability scanning</li>
+              <li>Secure coding</li>
+              <li>Threat modeling</li>
+              <li>Pen testing tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <h2>Let’s build something</h2>
+          <p>Have a project, a bug, or an idea? Send a message and I’ll get back to you soon.</p>
+
+          <div class="contact-quick">
+            <a class="contact-chip" href="mailto:hamiraniansh420@gmail.com">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="label">Email</span>
+            </a>
+            <a class="contact-chip" href="tel:+1234567890">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.19 6.19l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="label">Call</span>
+            </a>
+            <a class="contact-chip" href="#" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4h16v16H4V4z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.5 9.5h3v10h-3v-10z" fill="currentColor" opacity="0.3"/>
+                  <path d="M9 7.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fill="currentColor"/>
+                  <path d="M14.5 12.5c0-1.07-.52-1.5-1.4-1.5-.8 0-1.2.44-1.4.75v-1.1h-3.3v10h3.3v-5.6c0-1.18.78-1.7 1.42-1.7.64 0 1.42.33 1.42 1.7v5.6h3.3v-5.9c0-2.87-1.53-4.2-3.57-4.2-1.72 0-2.5.95-2.94 1.62h.04V7.5h-3.3c.04 1.08 0 10 0 10h3.3v-5.6c0-.3.02-.58.11-.79.24-.58.79-1.18 1.71-1.18 1.2 0 1.68.89 1.68 2.2v5.4h3.3v-5.7z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span class="label">LinkedIn</span>
+            </a>
+            <a class="contact-chip" href="https://github.com/HamiraniAnsh" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2a10 10 0 0 0-3.162 19.488c.5.093.682-.217.682-.482 0-.237-.008-.868-.013-1.704-2.782.604-3.369-1.342-3.369-1.342-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.22-.252-4.555-1.112-4.555-4.95 0-1.093.39-1.987 1.03-2.685-.103-.253-.447-1.27.098-2.648 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.338 1.908-1.294 2.748-1.025 2.748-1.025.546 1.379.202 2.396.1 2.648.64.698 1.028 1.592 1.028 2.685 0 3.848-2.338 4.695-4.566 4.942.359.31.679.918.679 1.852 0 1.336-.012 2.415-.012 2.743 0 .268.18.58.688.482A10 10 0 0 0 12 2z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span class="label">GitHub</span>
+            </a>
+          </div>
+
+          <form class="contact-form" action="#" method="POST">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" placeholder="Tell me about your project" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+        </div>
+
+        <aside class="contact-info">
+          <h3>Connect</h3>
+          <p>Prefer email? Or hit me on GitHub — I check both daily.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:hamiraniansh420@gmail.com">hamiraniansh420@gmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/HamiraniAnsh" target="_blank" rel="noreferrer">github.com/HamiraniAnsh</a></li>
+          </ul>
+
+          <div class="testimonials" aria-live="polite">
+            <h4>What people say</h4>
+            <blockquote class="testimonial">“The second any blood is shed, we’ll no longer be robbers. We’ll become murderers.”</blockquote>
+            <div class="testimonial-meta">
+              <span class="testimonial-name">– Client</span>
+              <span class="testimonial-tag">(confidential)</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> bruhzansh — Built with HTML, CSS, and a bit of JS.</p>
+      <p><small>Images from Unsplash.</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
